@@ -1,0 +1,140 @@
+.home_container{
+    width: 100%;
+    
+}
+
+.email{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.category_button {
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 15px;
+    border: 14px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 275px;
+    width: 8%;
+    padding: 8px;
+    margin-right: -2px;
+    
+}
+.category_button1{
+    width: 12%;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 15px;
+    border: 14px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 230px;
+    padding: 8px;
+    margin-right: -2px;
+    
+    
+}
+
+.home{
+    display: flex ;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto
+
+    /*overflow: hidden;*/
+}
+.home_row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#b1{
+    font-family: sans-serif;
+    color: darkslategrey;
+    height: 5px;
+    display: block;
+    margin-left: 5px;
+    font-size: 45px;
+}
+
+.slider{
+    
+    background-image:url("https://images.unsplash.com/photo-1645599551186-717c2ca6c8f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3uto=format&fit=crop&w=500&q=60");
+    height:447px;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.slider2{
+    background-image:url("https://images.unsplash.com/photo-1645599551186-717c2ca6c8f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3uto=format&fit=crop&w=500&q=60");
+    height:185px;
+    width: 100%;
+    background-size: cover;
+}
+.but{
+    margin-top: 0px;
+}
+
+.home_signupBtn{
+    width: 12%;
+    background: transparent;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 15px;
+    border: 14px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 100x;
+    padding: 8px;
+    margin-left:45%;
+    border: 2px solid whitesmoke;
+}
+
+.date{
+    width: 12%;
+    background: transparent;
+    color: rgb(1, 23, 36);;
+    font-weight: bold;
+    font-size: 15px;
+    border: 14px;
+    border-radius: 20px;
+    margin:40px;
+    margin-top: 100x;
+    padding: 8px;
+    margin-left:700px ;
+    border: 3px solid rgb(1, 23, 36);
+    z-index: 1;
+}
+
+.date:hover{
+    transform: scale(1.2);
+}
+
+.row{
+    
+    z-index: 1;
+    border-radius: 80px;
+    background-color: whitesmoke;
+    z-index: 1;
+    margin-top: -115px;
+}
+.home_signupBtn:hover{
+    transform: scale(1.2);
+}
+.slider2 span {
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 20px;
+    display: flex;
+   
+}
+.slider button:hover{
+    background: transparent;
+    border: 2px solid whitesmoke;
+    
+}
+

@@ -1,0 +1,91 @@
+.login {
+
+    background-color: rgb(1, 23, 36);
+ 
+    
+}
+
+.login__logo {
+    margin-top: -150px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 45px;
+    margin-left: 50%;
+  }
+  .text{
+     margin-left: 49%;
+      color: whitesmoke;
+      margin-bottom: 15px;
+      font-family: davida ;
+      margin-top: -250px;
+  }
+
+.login__container {
+    width: 600px;
+    height:650px ;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 30%;
+    
+}
+
+.login__container > h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: whitesmoke;
+  }
+ 
+.login__container > form > h5 {
+    margin-bottom: 5px;
+    color: whitesmoke;
+}
+
+.login__container > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+  }
+
+.login__container > p {
+    margin-top: 50px;
+    font-size: 12px;
+    color: whitesmoke;
+}
+
+.login__signInButton {
+   background-color: black ; /* background-image: url('https://imagFyY2h8MTZ8fHRleHR1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');*/
+   color: whitesmoke;
+   font-weight: bold;
+   border: 4px ;
+   margin-top: 5px;
+   padding: 8.5px;
+   border-radius: 5px;
+   position: absolute;
+   width: 10%;
+   display: block;
+  }
+  .login__signInButton:hover{
+    transform: scale(1.2);
+}
+
+  .login__registerButton {
+    width: 50%;
+    background: transparent;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 15px;
+    border: 14px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 100x;
+    padding: 6px;
+    margin-left: 150px;
+    
+    border: 2px solid whitesmoke;
+  }
+
+.login__registerButton:hover{
+    transform: scale(1.2);
+}

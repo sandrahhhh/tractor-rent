@@ -1,0 +1,41 @@
+.subtotal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 100px;
+    padding: 30px;
+    background-color: rgb(1, 23, 36);
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+  }
+
+  
+  .subtotal > button {
+    width: 70%;
+    background: transparent;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 15px;
+    border: 14px;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 100x;
+    padding: 6px;
+    margin-left: 50px;
+    border: 2px solid whitesmoke;
+  
+  }
+
+  .subtotal > p {
+    color: whitesmoke;
+    margin-left: 95px;
+  }
+
+
+  .subtotal > button:hover{
+    transform: scale(1.3);
+   }
+  
